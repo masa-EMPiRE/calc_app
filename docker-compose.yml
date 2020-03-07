@@ -7,7 +7,7 @@ services:
       args:
         APP_ROOT: /calc_app 
     volumes:
-      - .:/calc_app :cached
+      - .:/calc_app:cached
       - bundle:/usr/local/bundle
       - yarn-data:/usr/local/share/.cache/yarn
     ports:
